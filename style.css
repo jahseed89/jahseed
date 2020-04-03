@@ -1,0 +1,144 @@
+*{
+	margin: 0; 
+	padding: 0;
+	/*border-collapse: collapse;*/
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;	
+
+}
+
+html {
+    box-sizing: border-box;
+    /*font-family: sans-serif;*/
+}
+
+
+body{
+	/*background-color: #ADD8E6;*/
+	background-color: rgb(8, 62, 158);
+}
+
+h2{
+	text-align: center;
+	text-shadow: solid white;
+	color: white;
+	padding-top: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px 
+}
+
+.main-container{
+	border: 2px solid white;
+	max-width: 400px;
+	height: 900px;
+	margin: 60px auto;
+	background-color: white;
+	border-radius: 1.1em 1.1em 1.1em 0;
+	padding: 20px;
+}
+
+label{
+	width: 500px;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-left: 1.3em;
+	margin-bottom: .25rem;
+	cursor: default;
+	box-sizing: inherit;
+}
+
+
+p{
+	margin-bottom: .25rem;
+	font-size: .875rem;
+	color: #4a5568;
+	line-height: 2;
+	font-family: U8,sans-serif;
+}
+
+h1{
+	text-align: center;
+	text-decoration-color: black;
+	font-size: 1.5rem;
+	margin: 0px, 0px;
+	color: #083e9e;
+}
+
+a{
+	/*padding: 10px;*/
+	background-color: rgb(8, 62, 158);
+	color: bold blue;
+	font-size: 1.1em;
+	margin: auto;
+	color: white;
+	text-underline-position: none;
+}
+
+.input{
+	height: 50px;
+	width: 350px;
+	margin-left: 1.3em;
+	margin-bottom: 40px;
+	background-color: #edf2f7;
+	outline: 0;
+	border: none;
+    border-radius: .3em;
+    padding-left: 10px;
+}
+
+.flow{
+	height: 50px;
+	width: 350px;
+	margin-left: 1.3em;
+	margin-bottom: 40px;
+	background-color: #edf2f7;
+	outline: 0;
+    border: none;
+    padding-left: 10px;
+    
+}
+
+.flow option.value{
+	font-family: Arial;
+	font-size: 15px;
+	padding-top: 20px;
+	height: 100px;
+	overflow: scroll;
+}
+
+.butt{
+	text-align: center;
+	color: white;
+	height: 50px;
+	width: 350px;
+	margin-left: 1.3em;		
+}
+
+.butt a{
+	display: block;
+	padding: 15px 15px;
+	text-decoration: none;
+	border-radius: 1em 1em 1em 0;
+}
+
+.butt a:hover{
+	background-color:darkblue;
+}
+
+.footer {
+	margin-bottom: 60px;
+	text-align: center;
+	text-decoration: none;
+	color: none;
+}
+
+.footer a{
+	text-decoration: none;
+	color: none;
+}
+
+.footer a:hover{
+	color: gray;
+}
+
+
+
